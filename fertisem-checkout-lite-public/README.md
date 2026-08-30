@@ -1,28 +1,50 @@
 # Fertisem Checkout Lite — Public Sanitized Copy
 
-Versión pública y sanitizada del plugin WooCommerce **Fertisem Checkout Lite v1.6.19**.
+Versión pública y sanitizada de **Fertisem Checkout Lite v1.6.19** para WooCommerce.
 
 **Autor:** lliuya.pe  
 **Copyright:** © 2026 lliuya.pe  
 **Licencia:** GPL-2.0-or-later
 
-## Seguridad de esta copia pública
+## Privacidad y sanitización
 
-Este paquete fue preparado específicamente para GitHub público. Se eliminaron o reemplazaron valores operativos reales, entre ellos:
+Esta publicación NO contiene los datos operativos reales usados en producción. Antes de hacerla pública se reemplazaron u ocultaron, entre otros:
 
 - dirección real de tienda y puntos de recojo;
-- nombres/asignaciones reales de transportistas;
-- plazos de entrega y despacho usados en producción;
+- nombres y asignaciones reales de transportistas;
+- plazos reales de despacho/entrega;
 - condiciones reales de flete y reglas comerciales;
 - URLs internas o de producción;
 - teléfonos, correos, RUC/DNI, credenciales, tokens y datos de clientes;
-- QR, datos bancarios o credenciales de métodos de pago.
+- QR, datos bancarios y credenciales de métodos de pago.
 
-La copia pública usa nombres neutrales como **Transportista A/B/C**, **Tienda de ejemplo**, **Dirección de ejemplo, Perú** y valores de logística como **según configuración**.
+La versión pública usa valores de demostración como **Transportista A/B/C**, **Tienda de ejemplo**, **Dirección de ejemplo, Perú** y **según configuración**.
 
-## Descarga
+## Obtener el ZIP público
 
-Descarga `fertisem-checkout-lite-v1.6.19-public-sanitized.zip` desde esta carpeta.
+El paquete sanitizado está dividido en partes dentro de `parts/` para conservar íntegro el archivo binario en esta publicación.
+
+### Windows / PowerShell
+
+Desde esta carpeta ejecuta:
+
+```powershell
+.\rebuild.ps1
+```
+
+### Linux / macOS
+
+```sh
+./rebuild.sh
+```
+
+El resultado será:
+
+`fertisem-checkout-lite-v1.6.19-public-sanitized.zip`
+
+SHA-256 esperado:
+
+`fc59b971e63b901b6409b0367acab4cea4b0e8405a411923a6af11aec31dd0d7`
 
 ## Funciones
 
@@ -38,6 +60,6 @@ Descarga `fertisem-checkout-lite-v1.6.19-public-sanitized.zip` desde esta carpet
 
 ## Importante
 
-Esta versión es una **demostración pública sanitizada**. Antes de usarla en producción debes configurar tus propios datos, transportistas, reglas de entrega, pagos y valores comerciales.
+Esta es una **copia pública sanitizada**. Antes de usarla en producción debes configurar tus propios datos, transportistas, reglas de entrega, pagos y valores comerciales.
 
 Sitio del autor: https://lliuya.pe/
